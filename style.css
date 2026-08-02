@@ -1,0 +1,92 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+    align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+
+}
+h1, h2,h3,h4{
+color: brown;
+}
+img{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;   
+}
+h1{
+    font-size: 500%;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(165, 42, 42,0.1);
+    border-radius: 35px;
+    margin: 10px;
+    padding: 10px;
+}
+.box h1{
+    font-size: x-large;
+}
+.box img{
+    height: 300px;
+    width:300px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+a{
+    text-decoration: none;
+}
+#main-box{
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    align-self: center;
+    max-width: 100vw;
+}
+.nav{
+    background-color: rgb(165, 42, 42);
+    font-size: 120%;
+    color: antiquewhite;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 100px ;
+    justify-content: center;
+    padding: 20px;
+    font-style: italic;
+    
+
+}
+.nav a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.recipe h1{
+font-size: 400%;
+text-align: center;
+}
+.recipe ul,ol,h2,h3,h4{
+    text-align: left;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    line-height: normal;
+    align-items: center;
+    gap: 20px;
+    margin-top: 2em;
+
+}
+.text{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
